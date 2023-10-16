@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 163, 6);
+}
+
+.box{
+    margin: 50px;
+    height: 1500px;
+    border: 10px solid red;
+    border-radius: 30px;
+}
+
+.navBar{
+    border: 10px solid blue;
+    border-radius: 40px;
+    background-color: goldenrod;
+    display: flex;
+    margin: 15px;
+}
+
+.logos{
+    margin: 10px;
+}
+
+
+.logo1{
+    display: flex;
+    gap: .5rem;
+    width: 300px;
+}
+
+
+.logo1 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 2000px;
+}
+
+.logo1 h2{
+    margin: 7x;
+    border-bottom: 5px solid green;
+    border-right: 5px solid green;
+}
+
+.search{
+    display: flex;
+    gap: none;
+    margin-left: 1000px;
+    margin-top: -25px;
+    width: 100px;
+    height: 30px;
+    width: 150px;
+}
+
+
+.search input{
+    border-radius: 10px;
+    border-left: 10px;
+}
+
+.search a button{
+    border-radius: 10px;
+    background-color: rgb(20, 12, 16);
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+}
+.search a button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+.menu{
+    margin-left: 500px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 3rem;
+    margin-top: -30px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(94, 11, 11);
+}
+
+.menu ul li:hover{
+    background-color: red;
+    border-radius: 5px;
+    border: 2px solid green;
+    height: 20px;
+    cursor: pointer;
+}
+
+.container{
+    border: 10px solid blue;
+    margin: 15px;
+    margin-top: -25px;
+    border-radius: 40px;
+    background-color: rgb(208, 208, 239);
+}
+
+.sideA{
+    border: 5px solid green;
+    border-radius: 30px;
+    width: 800px;
+    margin: 15px;
+}
+
+.sideA h4{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.innerContA{
+    border: 10px solid red;
+    margin: 40px;
+}
+
+.innerContA h1{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.circles{
+    margin: 40px;
+    display: flex;
+    gap: 4rem;
+    border: 2px solid blue;
+    justify-content: center;
+}
+
+
+.circle1 {
+    height: 40px;
+    width: 40px;
+    border: 2px solid red;
+    border-radius: 1200px;
+    background-color: lime;
+}
+
+.circle2{
+    height: 40px;
+    width: 40px;
+    border: 2px solid red;
+    border-radius: 1200px;
+    background-color: deeppink;
+}
+
+.circle3{
+    height: 40px;
+    width: 40px;
+    border: 2px solid red;
+    border-radius: 1200px;
+    background-color: darkblue;
+}
+
+.circle4{
+    height: 40px;
+    width: 40px;
+    border: 2px solid red;
+    border-radius: 1200px;
+    background-color: chocolate;
+}
+
+.circle5{
+    height: 40px;
+    width: 40px;
+    border: 2px solid red;
+    border-radius: 1200px;
+    background-color: indianred;
+}
+
+.circle6{
+    height: 40px;
+    width: 40px;
+    border: 2px solid red;
+    border-radius: 1200px;
+    background-color: rgb(8, 101, 240);
+}
+
+
+
+
+
